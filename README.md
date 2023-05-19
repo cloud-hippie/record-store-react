@@ -1,6 +1,27 @@
-# Getting Started with Create React App
+# React Record Store
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+It helps us get all of the scafolding required for running a React application. It is similar to other CLIs that help developers get the transipler and other APIs they need for building the application.
+
+## Introduction
+
+Radical Records has a storefront, but they are looking to take their classic records into a modern React app.
+
+Their owner want to be able to display his inventory in his store using Software.
+
+## Brief
+
+The owner wants to be able to display each album including its:
+- Front cover
+- Artist
+- Price
+- Release Year
+- Count
+
+If the album has a count of 0, it should show a different color and indicate that the owner needs to order more records.
+
+Good Luck!
 
 ## Available Scripts
 
