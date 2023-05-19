@@ -3,12 +3,13 @@ import { useState } from "react";
 
 type Album = {
     name: string;
+    year: number;
 }
 
-
+// This is a functional component that returns JSX and acts like a page.
 export const Home = () => {
     const [name, setName] = useState("Enter album Name...");
-    const [albums, setAlbums] = useState([{name: "Album 1"}, {name: "Album 2"}]);
+    const [albums, setAlbums] = useState([] as Album[]);
 
     return (
         <div
